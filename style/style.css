@@ -1,0 +1,307 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body{
+    height: 100%;
+    width: 100%;
+
+}
+/* ----------------NAVBAR--------------- */
+    .container{
+    display: flex;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 15px;
+    margin-top: 15px;
+    height: 80px;
+
+    }
+
+.logo img{
+    display: flex;
+    margin-left: 70px;
+    cursor: pointer;
+    margin-bottom: -50px;
+    height: 100%;
+    width: 80%;
+}
+
+.nav-menu ul {
+    display: flex;
+    gap: 32px;
+    padding: 20PX 94PX;
+    list-style: none;
+    margin-left: 500px;
+}
+.nav-menu ul a{
+    text-decoration: none;
+    margin:10px;
+    font-size: 2rem;
+    font-weight: 800px;
+    font-family: 'Dongle', sans-serif;
+    color: #333;
+    cursor: pointer;
+}
+
+.nav-menu ul a:hover{
+    color: #ff7f50;
+}
+
+/* ---------------HERO SECTION----------- */
+.hero{
+    position: relative;
+    height: 600px;
+    overflow: hidden;
+}
+
+.hero-img img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+.hero-content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    transform: translate(-50% -50% );
+    align-items: center;
+    margin-left: -25%;
+    margin-top: -60px;
+}
+
+.hero-content h1{
+    font-family:'Dongle', sans-serif ;
+    font-size:5rem;
+    color: #fff;
+}
+
+.hero-content p{
+    font-family:'Dongle', sans-serif ;
+    font-size:1.8rem;
+    color: #fff;
+    padding-bottom: 25px;
+    margin-bottom: 12px;
+}
+
+.hero-content a{
+    text-decoration: none;
+    background-color: #ff7f50;
+    padding: 12px 30px;
+    color: #fff;
+    border-radius: 50px;
+}
+.hero-content a:hover{
+    background-color: #a53006;
+}
+
+/* --------------DESTINATION--------------- */
+.destination{
+    font-size: 2.4rem;
+    font-family: 'Dongle', sans-serif;
+    margin: 40px 80px;
+    text-align: center;
+}
+
+.destination-grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 40px;
+}
+.destination-item img{
+    height: 80%;
+    width: 400px;
+}
+.destination-item{
+    text-align: left;
+    margin-bottom: 35px;
+}
+.destination-item p{
+    font-size: 1rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 200px;
+}
+
+/* ---------------FEATURD HOTEL------------------- */
+.destination{
+    font-size: 2.4rem;
+    font-family: 'Dongle', sans-serif;
+    margin: 40px 80px;
+    text-align: center;
+}
+
+.destination-grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 40px;
+}
+.destination-item img{
+    height: 80%;
+    width: 400px;
+}
+.destination-item{
+    text-align: left;
+    margin-bottom: 35px;
+}
+.destination-item p{
+    font-size: 1rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 200px;
+}
+
+/* --------------------FEATURED ACTIVITY------------------------------ */
+
+.destination{
+    font-size: 2.4rem;
+    font-family: 'Dongle', sans-serif;
+    margin: 40px 80px;
+    text-align: center;
+}
+
+.destination-grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 40px;
+}
+.destination-item img{
+    height: 80%;
+    width: 400px;
+}
+.destination-item{
+    text-align: left;
+    margin-bottom: 35px;
+}
+.destination-item p{
+    font-size: 1rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 200px;
+}
+
+/* -------------ABOUT US----------------- */
+.about-us{
+    text-align: center;
+    padding: 80px;
+}
+
+.about-us h3{
+    font-size: 2.5rem;
+}
+.about-us p{
+    font-size: 1.3rem;
+    font-weight: 800px;
+    line-height: 1;
+}
+
+.team-members{
+    display: flex;
+    flex-wrap: wrap;
+}
+.team-member img{
+    height: 300px;
+    width: 300px;
+    gap: 30px;
+    margin: 30px;
+    padding-top: 30px;
+}
+.team-members h3{
+    padding-top: 70px;
+}
+
+
+/* --------------------CONTACT------------------ */
+.contact{
+    text-align: center;
+    padding: 80px;
+    background-color: #f7f7f7;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+}
+.contact h3{
+    font-size: 2.5rem;
+    padding: 20px 10px;
+}
+
+.contact-info p{
+    font-size: 1.3rem;
+    margin: 20px;
+
+}
+
+.contact-info ul{
+    list-style: none;
+    display: flex;
+    justify-content:center;
+    padding: 20px 25px;
+    gap: 30px;
+    cursor: pointer;
+}
+
+.contact-info a{
+    text-decoration: none;
+    color: black;
+}
+
+
+.form-group input{
+    width: 100%;
+    padding: 10px 80px;
+    margin: 10px 0px;
+}
+
+.form-group textarea{
+    width: 100%;
+    margin: 10px 0px;
+}
+
+input , textarea{
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+    border-radius: 7px;
+    border: 0px;
+}
+
+.form-button{
+    background-color: #ff7f50;
+    height: 40px;
+    width: 150px;
+    border-radius: 10px;
+    border: 0px;
+    margin-top: 80px;
+    padding: 11px;
+    font-size: large;
+    color: white;
+}
+
+.form-button:hover{
+    background-color: #a53006; 
+}
+
+/* -----------FOOTER---------------- */
+.footer-items{
+    height: 150px;
+    width: 100%;
+    background-color: black;
+}
+
+.social-icon a{
+    color: white;
+    font-size: 30px
+}
+.social-icon{
+    padding-top: 60px;
+    padding-left: 50px;
+    word-spacing: 20px;
+}
+.content{
+    text-align: right;
+    padding-right: 200px;
+}
+.content p{
+    margin-top: -30px;
+}
